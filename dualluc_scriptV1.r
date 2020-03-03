@@ -18,7 +18,6 @@ library(readxl)
 library(tidyr)
 library(ggplot2)
 library(dplyr)
-library(tibble)
 
 # import excel output GloMax with readxl into a dataframe.The datasheet must be prepared by creating separate sheets for firefly and renilla.
 # import both data into separate dataframes
