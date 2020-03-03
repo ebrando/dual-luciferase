@@ -61,9 +61,9 @@ grid.table(FR_tidy2)
 dev.off()
 
 #doing the relative calculation i.e. normalize to expression of the empty vector "Ev"
-THOC5 <- FR$B/FR$A
-dSVA <- FR$C/FR$A
-relative <- tibble(THOC5, dSVA)
+cond1 <- FR$B/FR$A
+cond2 <- FR$C/FR$A
+relative <- tibble(cond1, cond2)
 relative_tidy <- gather(relative, condition, FC)
 relative_tidy
 
