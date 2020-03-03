@@ -10,7 +10,8 @@ This R-based workflow is designed to standardize the analysis and publication of
 
 ## Data preparation
 * create 2 new sheets named "firefly" and "renilla"
-* copy and past raw expression data from the "result" sheet to the newly created sheets 
+* copy and past raw expression data from the "result" sheet to the newly created sheets
+* give each column a simple name such as A, B and C. These should be the same in both sheets
 * save the data
 
 ## Prepare R environment
