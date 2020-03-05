@@ -37,6 +37,10 @@ The newly obtained FR ratio can be used to calculate relative expression between
 * In the example data, column A contains data of the reference condition.
 * Expression fold-changes should be calculated relative to column A.
 * To obtain relative change in expression of condition B, calculate B/A
+
+## Output examples
+![example plot of FR ratios of each reporter conditions. Bar shows median](https://github.com/ebrando/dual-luciferase/blob/master/FR_summary.png)
+![example plot of relative expressions, normalized to the empty vector. Bar shows median](https://github.com/ebrando/dual-luciferase/blob/master/FC_lucexpression.png)
     
 ## Future
 In case of multiple experimental conditions, it can be useful to plot only those conditions that are relevant. 
